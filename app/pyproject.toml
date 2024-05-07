@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "async-api"
+version = "0.1.0"
+description = "File storage"
+authors = ["Denis Shvetsov <den.shvetsov@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+redis = "4.4.2"
+fastapi = "0.61.1"
+orjson = "^3.9.10"
+uvicorn = "^0.25.0"
+uvloop = "^0.19.0"
+aiohttp = "^3.9.1"
+flake8 = "^6.1.0"
+black = "^23.12.1"
+isort = "^5.13.2"
+python-dotenv = "^1.0.0"
+gunicorn = "^21.2.0"
+requests = "^2.31.0"
+sqlalchemy = "^2.0.27"
+sqlalchemy-serializer = "^1.4.1"
+minio = "^7.2.4"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+miniopy-async = "^1.19"
+aiofiles = "^23.2.1"
+python-multipart = "^0.0.9"
+asyncpg = "^0.29.0"
+shortuuid = "^1.0.11"
+httpx = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
